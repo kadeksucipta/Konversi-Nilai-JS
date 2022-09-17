@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Konversi Nilai</title>
+   
+       
+</head>
+<body>
+    
+    <script>
+
+        let stop = confirm("Program Konversi Nilai Silahkan Klik OK untuk Melanjutkan");
+        console.log(stop)
+
+
+        let Nilai = prompt("Silahkan Input Nilai Anda");
+
+        if (Nilai >= 80 && Nilai <= 100){
+            alert("Selamat Anda Lulus Dengan Predikat Nilai A");
+        }else if(Nilai >= 60 && Nilai <= 79){
+            alert("Selamat Anda Lulus Dengan Predikat Nilai B");
+        }else if(Nilai >= 40 && Nilai <= 59){
+            alert("Maaf Anda Gagal Dengan Predikat Nilai C");
+        }else if(Nilai >= 20 && Nilai <= 39){
+            alert("Maaf Anda Gagal Dengan Predikat Nilai D");
+        }else if(Nilai >= 0 && Nilai <= 19){
+            alert("Maaf Anda Gagal Dengan Predikat Nilai E");
+        }
+
+
+        let text = alert ("Terima Kasih :)");
+
+    </script>
+</body>
+</html>
